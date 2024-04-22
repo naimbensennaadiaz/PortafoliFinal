@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos específicos para la landing page */
+  .landing-page {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .landing-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page .cubo {
+    max-width: 200px;
+    margin: 0 auto 30px;
+    display: block;
+  }
+  
+  .landing-page p {
+    font-size: 18px;
+  }
+  
+  /* Estilos para la sección de proyectos */
+  .proyectos {
+    padding: 50px 0;
+  }
+  
+  .proyectos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .proyecto {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .proyecto h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .proyecto a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .proyecto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para la sección de contacto */
+  .contacto {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .contacto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contacto p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .contacto a {
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .contacto a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }

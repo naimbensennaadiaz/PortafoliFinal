@@ -1,0 +1,40 @@
+*{
+    text-align: left;
+}
+tr td{
+    padding: 10px;
+    background-color: rgb(1, 19, 1);
+}
+tr th{
+    padding: 10px;
+}
+table{
+    margin: auto;
+    background-color: black;
+}
+body{
+    background-color: beige;
+}
+tr{
+    color: white;
+}
+thead{
+    background-color: rgb(4, 4, 71);
+}
+table,th,td{
+    border-collapse: collapse;
+
+}
+.letra_gorda{
+    font-weight: bolder;
+}
+p{
+    font-weight: normal;
+    color: grey;
+}
+.resto_en_gris{
+    color: grey;
+}
+tr:hover td{
+    background-color: rgb(9, 63, 2);
+}
